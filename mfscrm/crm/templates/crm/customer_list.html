@@ -70,10 +70,10 @@
                     </td>
 
                     </td>
-                    <td><a href=""
+                    <td><a href="{% url 'crm:summary' pk=customer.pk %}"
                            class="btn btn-primary">Summary</a>
+                    </td>
 
-                </tr>
             {% endfor %}
             </tbody>
         </table>
